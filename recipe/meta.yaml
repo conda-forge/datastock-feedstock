@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/datastock-{{ version }}.tar.gz
-  sha256: 4e7f694333fa44608bec5e75284643701fbf79578189a5ec23f79b0f2b1361ed
+  sha256: 5a35e265a1e1678377f08a78d4c4234d43bd57a8d0999881a578279ea1ad0b25
 
 build:
   number: 0
