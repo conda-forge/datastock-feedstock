@@ -1,5 +1,5 @@
 {% set name = "datastock" %}
-{% set version = "0.0.20" %}
+{% set version = "0.0.21" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/datastock-{{ version }}.tar.gz
-  sha256: c4c13c64c02a0c4029013bfd253844f5907562c0dd5e191f605af40f672f2e95
+  sha256: f8f79eb114c4c2e2fd36cc95229b78f296390607fd8516d0b7080a6c88e8b5f6
 
 build:
   number: 0
@@ -22,8 +22,9 @@ requirements:
   run:
     - matplotlib-base
     - numpy
-    - python >=3.6
+    - python >=3.7
     - scipy
+    - astropy
 
 test:
   imports:
