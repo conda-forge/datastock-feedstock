@@ -1,11 +1,11 @@
-About datastock
-===============
+About datastock-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/datastock-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/ToFuProject/datastock
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/datastock-feedstock/blob/main/LICENSE.txt)
 
 Summary: A python library for generic class and data handling
 
