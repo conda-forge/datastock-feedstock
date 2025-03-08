@@ -1,5 +1,5 @@
 {% set name = "datastock" %}
-{% set version = "0.0.45" %}
+{% set version = "0.0.46" %}
 {% set python_min = "3.8" %}
 
 
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/datastock-{{ version }}.tar.gz
-  sha256: 774da67ea00add2e1fdadacb235fee8ab3a61bcc77abfd9498aac4d10381a39d
+  sha256: 15b8bdb615c318ae0a6875bdff463cbd0e7d9a702ed216a5d1d4d3ebc4b4489d
 
 build:
   number: 0
