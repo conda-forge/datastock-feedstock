@@ -42,7 +42,8 @@ about:
   home: https://github.com/ToFuProject/datastock
   summary: A python library for generic class and data handling
   license: MIT
-  license_file: LICENSE
+  license_family: MIT
+  license_file: LICENSE.txt
 
 extra:
   recipe-maintainers:
