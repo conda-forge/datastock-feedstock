@@ -1,5 +1,5 @@
 {% set name = "datastock" %}
-{% set version = "0.0.50" %}
+{% set version = "0.0.52" %}
 {% set python_min = "3.8" %}
 
 
@@ -9,10 +9,11 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/datastock-{{ version }}.tar.gz
-  sha256: e11198cc2638fa05f1496b2ac7d77269cc28ecf67c6092c82115119da314c5f3
+  sha256: 129807ccbc088af8ffc930e733e431952d587c4cc211a9915604117f6e6e2f9a
 
 build:
   number: 0
+  noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
@@ -22,7 +23,6 @@ requirements:
     - python {{ python_min }}
   run:
     - matplotlib-base
-    - PyQt5-sip  # [not win]
     - numpy
     - python >={{ python_min }}
     - scipy
