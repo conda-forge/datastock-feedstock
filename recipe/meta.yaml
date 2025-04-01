@@ -23,7 +23,7 @@ requirements:
     - python {{ python_min }}
   run:
     - matplotlib-base
-    - PyQt5 # [not win]
+    - PyQt5-sip  # [not win]
     - numpy
     - python >={{ python_min }}
     - scipy
